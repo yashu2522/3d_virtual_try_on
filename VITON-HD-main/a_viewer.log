@@ -1,0 +1,6 @@
+/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages/gradio/utils.py:1002: UserWarning: Expected 1 arguments for function <function load_initial_model at 0x7ead87f02b60>, received 0.
+  warnings.warn(
+/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages/gradio/utils.py:1006: UserWarning: Expected at least 1 arguments for function <function load_initial_model at 0x7ead87f02b60>, received 0.
+  warnings.warn(
+/home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages/gradio_client/utils.py:1097: UserWarning: file() is deprecated and will be removed in a future version. Use handle_file() instead.
+  warnings.warn(

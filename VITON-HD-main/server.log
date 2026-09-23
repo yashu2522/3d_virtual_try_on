@@ -1,0 +1,48 @@
+ * Serving Flask app 'web_tryon_server'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.192.11.164:5000
+[33mPress CTRL+C to quit[0m
+130.211.236.75 - - [12/Apr/2026 21:08:51] "POST /api/tryon HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:08:52] "GET /results/web_1776028103/web363e0a130a_01260_00.jpg?t=1776028131 HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:09:46] "POST /api/generate-3d HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:13:20] "POST /api/tryon HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:13:20] "GET /results/web_1776028373/webebf56d7751_01430_00.jpg?t=1776028400 HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:13:44] "POST /api/generate-3d HTTP/1.1" 200 -
+34.71.39.87 - - [12/Apr/2026 21:15:41] "POST /api/tryon HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:15:41] "GET /results/web_1776028512/weba4915a4f10_02783_00.jpg?t=1776028541 HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:16:07] "POST /api/generate-3d HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:17:36] "POST /api/tryon HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:17:37] "GET /results/web_1776028630/web70bd78fe83_06429_00.jpg?t=1776028656 HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:18:12] "POST /api/generate-3d HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:20:21] "POST /api/tryon HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:20:21] "GET /results/web_1776028792/web1fe1e44067_06802_00.jpg?t=1776028821 HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:20:46] "POST /api/generate-3d HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:22:38] "POST /api/tryon HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:22:39] "GET /results/web_1776028932/web5ea8c184aa_07429_00.jpg?t=1776028958 HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:22:59] "POST /api/generate-3d HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:25:00] "POST /api/tryon HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:25:00] "GET /results/web_1776029072/web0a606cfb56_08348_00.jpg?t=1776029100 HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:25:20] "POST /api/generate-3d HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:27:27] "POST /api/tryon HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:27:27] "GET /results/web_1776029219/webc77770b187_09933_00.jpg?t=1776029247 HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:27:49] "POST /api/generate-3d HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:30:24] "POST /api/tryon HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:30:24] "GET /results/web_1776029397/web9d301b36ad_11028_00.jpg?t=1776029424 HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:30:54] "POST /api/generate-3d HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:32:24] "POST /api/tryon HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:32:24] "GET /results/web_1776029516/webbbddeb0beb_11351_00.jpg?t=1776029544 HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:32:44] "POST /api/generate-3d HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:34:24] "POST /api/tryon HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:34:24] "GET /results/web_1776029636/webafab3533a2_11791_00.jpg?t=1776029664 HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:34:46] "POST /api/generate-3d HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:36:30] "POST /api/tryon HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:36:31] "GET /results/web_1776029763/web83dd646584_14628_00.jpg?t=1776029790 HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:37:00] "POST /api/generate-3d HTTP/1.1" 200 -
+130.211.236.75 - - [12/Apr/2026 21:38:21] "[35m[1mPOST /api/tryon HTTP/1.1[0m" 500 -
+130.211.236.75 - - [12/Apr/2026 21:38:47] "[35m[1mPOST /api/tryon HTTP/1.1[0m" 500 -
+130.211.236.75 - - [12/Apr/2026 21:39:10] "[35m[1mPOST /api/tryon HTTP/1.1[0m" 500 -
+130.211.236.75 - - [12/Apr/2026 21:39:27] "[35m[1mPOST /api/tryon HTTP/1.1[0m" 500 -
+130.211.236.75 - - [12/Apr/2026 21:41:08] "[35m[1mPOST /api/tryon HTTP/1.1[0m" 500 -

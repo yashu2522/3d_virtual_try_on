@@ -1,0 +1,18 @@
+/home/zeus/content/VITON-HD-main/utils.py:40: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(checkpoint_path))
+Namespace(name='eval_run', batch_size=1, workers=1, load_height=1024, load_width=768, shuffle=False, dataset_dir='./datasets/', dataset_mode='test', dataset_list='test_pairs_eval.txt', checkpoint_dir='./checkpoints/', save_dir='./results/', display_freq=1, seg_checkpoint='seg_final.pth', gmm_checkpoint='gmm_final.pth', alias_checkpoint='alias_final.pth', semantic_nc=13, init_type='xavier', init_variance=0.02, grid_size=5, norm_G='spectralaliasinstance', ngf=64, num_upsampling_layers='most')
+Running in CPU-only mode.
+Network [SegGenerator] was created. Total number of parameters: 34.5 million. To see the architecture, do print(network).
+Network [ALIASGenerator] was created. Total number of parameters: 100.5 million. To see the architecture, do print(network).
+Traceback (most recent call last):
+  File "/home/zeus/content/VITON-HD-main/ttt.py", line 162, in <module>
+    main()
+  File "/home/zeus/content/VITON-HD-main/ttt.py", line 158, in main
+    test(opt, seg, gmm, alias, device)
+  File "/home/zeus/content/VITON-HD-main/ttt.py", line 61, in test
+    test_dataset = VITONDataset(opt)
+                   ^^^^^^^^^^^^^^^^^
+  File "/home/zeus/content/VITON-HD-main/datasets.py", line 26, in __init__
+    with open(osp.join(opt.dataset_dir, opt.dataset_list), 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './datasets/test_pairs_eval.txt'
